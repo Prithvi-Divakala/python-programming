@@ -1,3 +1,4 @@
+# Function that takes a string s, representing a sentence,and returns a copy of the string with all punctuation removed.
 def remove_punctuation(sentence: str):
     punctuation = ["'", ",", ".", "-", "_", "?", ";", ":"]
     sent_list = list(sentence)
